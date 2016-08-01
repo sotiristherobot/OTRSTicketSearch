@@ -7,8 +7,35 @@
   }
 
 
+  function addToHTML(id, title, content){
+
+    var ticket = document.createElement('div'),
+        ticket_id = document.createElement("div"),
+        ticket_title = document.createElement("div"),
+        ticket_content = document.createElement("div");
+
+    ticket.className = "ticket";
+    ticket_id.className = "ticket-id";
+    ticket_title.className = "ticket-title";
+    ticket_content.className = "ticket-content";
+
+    //add content to ticket
+    ticket_id.innerHTML = id;
+    ticket_title.innerHTML = title;
+    ticket_content.innerHTML = content;
+
+    ticket.appendChild(ticket_id);
+    ticket.appendChild(ticket_title);
+    ticket.appendChild(ticket_content);
+    
+    document.getElementById("tickets").appendChild(ticket);
+
+  }
+
   var ticket_test = new ticket(1, "kokos-tromeors", "o kokos einai apo tin kokia");
 
-  console.log(ticket_test);
+  addToHTML(10,"kokos", "kokoui");
+
+
 
 })();
