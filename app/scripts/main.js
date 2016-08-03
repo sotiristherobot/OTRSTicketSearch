@@ -19,6 +19,8 @@
     ticket_title.className = "ticket-title col-sm-6";
     ticket_content.className = "ticket-content col-sm-4";
 
+
+
     //add content to ticket
     ticket_id.innerHTML = id;
     ticket_title.innerHTML = title;
@@ -29,6 +31,8 @@
     ticket.appendChild(ticket_content);
 
     document.getElementById("tickets").appendChild(ticket);
+
+
 
   }
 
