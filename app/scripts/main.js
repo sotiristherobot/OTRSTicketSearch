@@ -40,16 +40,16 @@
 
     console.log("live searching");
     //using jQuery for live search
-    var $trs = $('#tickets').hide();
+    var $t = $('.ticket').hide();
 
-    console.log(element);
+
     var regexp = new RegExp($(element).val(), 'i');
 
-    var $valid = $trs.filter(function () {
+    var $valid = $t.filter(function () {
       return regexp.test($(this).find('.ticket-content').text())
     }).show();
 
-    $trs.not($valid).hide();
+    $t.not($valid).hide();
 
 
   }
@@ -57,7 +57,7 @@
   var ticket_test = new ticket(1, "kokos-tromeors", "o kokos einai apo tin kokia");
 
   addToHTML(10,"kokos", "kokoui");
-
+  addToHTML(5,"kokos", "kolokithi");
   //live search
   $('#searchbox').on('keyup change', function () {
     searchHTML(this);
