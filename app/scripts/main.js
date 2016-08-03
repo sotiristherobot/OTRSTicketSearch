@@ -15,9 +15,9 @@
         ticket_content = document.createElement("div");
 
     ticket.className = "ticket";
-    ticket_id.className = "ticket-id";
-    ticket_title.className = "ticket-title";
-    ticket_content.className = "ticket-content";
+    ticket_id.className = "ticket-id col-sm-2";
+    ticket_title.className = "ticket-title col-sm-6";
+    ticket_content.className = "ticket-content col-sm-4";
 
     //add content to ticket
     ticket_id.innerHTML = id;
@@ -27,7 +27,7 @@
     ticket.appendChild(ticket_id);
     ticket.appendChild(ticket_title);
     ticket.appendChild(ticket_content);
-    
+
     document.getElementById("tickets").appendChild(ticket);
 
   }
