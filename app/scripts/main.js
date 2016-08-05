@@ -1,3 +1,5 @@
+
+
 (function () {
 
   var ticket = function (id, title, content) {
@@ -54,6 +56,8 @@
 
   }
 
+
+
   var ticket_test = new ticket(1, "kokos-tromeors", "o kokos einai apo tin kokia");
 
   addToHTML(10,"kokos", "kokoui");
@@ -63,3 +67,9 @@
     searchHTML(this);
   })
 
+  $("#getInput").click(function () {
+    console.log("geetin input");
+    console.info("Getting input");
+  })
+
+})();
