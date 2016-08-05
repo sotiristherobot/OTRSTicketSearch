@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dea9d4c9-5066-4015-a0c6-ee1c1ea5cb70" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
     </list>
     <ignored path="OTRSTicketSearch.iws" />
@@ -54,12 +53,14 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
+            <state relative-caret-position="225">
+              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
               <folding>
                 <element signature="e#63#138#0" expanded="false" />
                 <element signature="e#181#905#0" expanded="false" />
                 <element signature="e#937#1253#0" expanded="false" />
+                <element signature="e#1433#1460#0" expanded="false" />
+                <element signature="e#1498#1683#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -130,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469994271229</updated>
-      <workItem from="1469994273182" duration="8565000" />
+      <workItem from="1469994273182" duration="8794000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1469994399906</created>
@@ -143,7 +144,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8565000" />
+    <option name="totallyTimeSpent" value="8794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="652" height="765" extended-state="0" />
@@ -213,12 +214,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
+        <state relative-caret-position="225">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding>
             <element signature="e#63#138#0" expanded="false" />
             <element signature="e#181#905#0" expanded="false" />
             <element signature="e#937#1253#0" expanded="false" />
+            <element signature="e#1433#1460#0" expanded="false" />
+            <element signature="e#1498#1683#0" expanded="false" />
           </folding>
         </state>
       </provider>

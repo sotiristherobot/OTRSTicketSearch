@@ -56,13 +56,11 @@
 
   }
 
-
-
-  var ticket_test = new ticket(1, "kokos-tromeors", "o kokos einai apo tin kokia");
-
-  addToHTML(10,"kokos", "kokoui");
-  addToHTML(5,"kokos", "kolokithi");
+ // addToHTML(10,"kokos", "kokoui");
+  //addToHTML(5,"kokos", "kolokithi");
   //live search
+
+  //decided to use some jQuery here
   $('#searchbox').on('keyup change', function () {
     searchHTML(this);
   })
@@ -73,7 +71,8 @@
     var ticket_title = $("#inptitle").val();
     var ticket_content = $("#inpcontent").val();
 
-    console.log(ticket_title);
+
+    addToHTML(1,ticket_title,ticket_content);
 
 
   })
