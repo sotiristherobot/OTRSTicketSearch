@@ -68,8 +68,14 @@
   })
 
   $("#getInput").click(function () {
-    console.log("geetin input");
     console.info("Getting input");
+
+    var ticket_title = $("#inptitle").val();
+    var ticket_content = $("#inpcontent").val();
+
+    console.log(ticket_title);
+
+
   })
 
 })();
